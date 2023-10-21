@@ -13,7 +13,7 @@ public class MovieService {
     public String addMovie(Movie mv){
         return this.movieRepository.addMovieRepo(mv);
     }
-    public String addDir(Director dr){
+    public String addDirector(Director dr){
         return this.movieRepository.addDirRepo(dr);
     }
     public String addPair( String mv, String dr ){
